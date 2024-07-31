@@ -229,6 +229,7 @@ p {
 .Precio {
     display: flex;
     font-size: 18px;
+
     span:first-child {
         font-size: 45px;
     }
@@ -240,10 +241,11 @@ ul {
     font-size: 18px;
 }
 
-.Letra{
+.Letra {
     color: #757578;
 }
-.Gris {
+
+.Letra_Gris {
     color: #757578;
 }
 
@@ -281,7 +283,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
-    
+
 }
 
 .copyright {
@@ -311,18 +313,162 @@ footer {
 }
 
 
-@media screen and (min-width:921px ) and (max-width: 1279px){
-    header{
+@media screen and (min-width:352px) and (max-width: 480px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        height: 140px;
+        width: 84%;
+        padding-right: 16%;
+    }
+
+    header img {
         width: 35%;
-        height: 10%;
+        clip-path: inset(5% 5% 10% 0%);
     }
 
-    header nav{
-        width: 20%;
+    .Product {
+        background-image: none;
+        padding-right: 4%;
+        width: 100%;
     }
 
-    .Logo1{
-        width: 1px;
-        height: 1px;
+    .Product_1 {
+        padding-right: 100px;
+        width: 100%;
     }
+
+    h1 {
+        display: flex;
+        font-size: 70px;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    h4 {
+        font-size: 15px;
+        margin: 0 40px;
+    }
+
+    .Botones {
+        margin: 10px 35px;
+    }
+
+    .span {
+        font-size: 15px;
+    }
+
+    .Boton_2 {
+        display: contents;
+    }
+
+
+
+    nav {
+        padding: 0px;
+    }
+
+    ul {
+        font-size: 12px;
+    }
+
+    nav ul {
+        font-size: 15px;
+        gap: 15px;
+        margin-left: 30px;
+    }
+
+    .Download {
+        padding: 9px 4px;
+        font-size: 15px;
+        margin-right: 9px;
+        margin-left: 3px;
+    }
+
+    .Fondo_transparente {
+        display: none;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 38px;
+        width: 100%;
+    }
+
+    .Parrafo_1 {
+        margin: 0 10%;
+        font-size: 16px;
+    }
+
+    .Marketing {
+        margin: 0 10%;
+        font-size: 16px;
+
+    }
+
+    .Foncti {
+        width: 100%;
+        padding-right: 16%;
+    }
+
+    .Titulo_1 {
+        font-size: 35px;
+    }
+
+    .Alpha {
+        width: 50%;
+        height: 20%;
+    }
+
+    .Plans_1 {
+        gap: 30px;
+
+    }
+
+    .Titulo_2 {
+        font-size: 40px;
+    }
+
+    .Containers {
+        display: contents;
+    }
+
+    .Items {
+        width: 90%;
+
+    }
+
+    .Plans_2 {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .Letra_Rosa {
+        font-size: 15px;
+    }
+
+    .Letra {
+        font-size: 15px;
+    }
+
+    .Letra_Gris {
+        font-size: 15px;
+    }
+
+    .copyright {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .Redes_sociales {
+        margin-right: 10px;
+    }
+
+
+
+
+
 }
