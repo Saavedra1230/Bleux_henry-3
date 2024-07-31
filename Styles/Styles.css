@@ -1,0 +1,577 @@
+header {
+    display: flex;
+    align-items: center;
+    background: #1e162eff;
+    justify-content: space-around;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 15px;
+    height: 4px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    color: white;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+.barra {
+    color: gray;
+}
+
+.Download {
+    border-radius: 5px;
+    padding: 16px 32px;
+    background: linear-gradient(90deg, #7c45d6ff, #1576d6ff);
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.Product {
+    background-color: #2e244fff;
+    justify-content: space-between;
+    display: flex;
+    height: 90vh;
+    color: white;
+    align-items: center;
+}
+
+h1 {
+    font-size: 75px;
+    margin-left: 27%;
+}
+
+h4 {
+    font-size: 20px;
+    margin-left: 27%;
+}
+
+.Fondo_transparente {
+    background-color: rgba(44, 44, 44, 0.418);
+    width: 100%;
+    height: 100%;
+}
+
+.telefono {
+    margin-left: 110px;
+    margin-top: 20%;
+    height: 75%;
+}
+
+aside {
+    width: 55%;
+    background-image: url(../Assets/hojasFondo.jpg);
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+}
+
+.Botones {
+    margin-left: 27%;
+    margin-right: 20%;
+    border: 2px solid #544d70;
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.Boton_1 {
+    background-color: white;
+    border: none;
+    border-radius: 0.4rem;
+    width: 500px;
+}
+
+.Boton_2 {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    color: white;
+    padding: 1rem 1.4rem;
+    font-size: 20px;
+}
+
+
+
+.span {
+    background: linear-gradient(to right, #ed66ac, #f51689);
+    font-size: 20px;
+    font-weight: 600;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Foncti {
+    background-color: #f2f3f7;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    color: #f51488;
+    align-items: center;
+    font-size: 18px;
+}
+
+.Alpha {
+    width: 30%;
+    margin-top: 75px;
+    width: 60%;
+}
+
+h2 {
+    color: #c2538c;
+    font-size: 48px;
+}
+
+.Parrafo {
+    color: #7c7c7d;
+    width: 80%;
+}
+
+.Titulo_1 {
+    font-size: 60px;
+    margin-left: 0%;
+    color: #f51488;
+    margin-top: 45px;
+}
+
+.Laptop {
+    margin-left: 27%;
+    width: 50%;
+    margin-top: 80px;
+}
+
+.Particion {
+    display: flex;
+}
+
+.Chulo {
+    width: 4%;
+    border-radius: 100%;
+}
+
+.Plans_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    background-color: #1e162e;
+}
+
+.Titulo_2 {
+    margin-top: 50px;
+    color: white;
+    font-size: 75px;
+}
+
+.Plans_2 {
+    color: #fff;
+    width: 60%;
+    font-size: 17px;
+}
+
+.Containers {
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.Items {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    width: 35%;
+    border-radius: 6px;
+    color: #1e162e;
+    margin-left: 100px;
+}
+
+.Lite {
+    color: #f51488;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    width: 80%;
+}
+
+.Precio {
+    display: flex;
+    font-size: 18px;
+    span:first-child {
+        font-size: 45px;
+    }
+}
+
+
+ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.Letra{
+    color: #757578;
+}
+.gris {
+    color: #757578;
+}
+
+.Letra_Rosa {
+    color: #f51687;
+}
+
+.Subscribe {
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: #2e244fff;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+.boton-rosa {
+    background: linear-gradient(to right, #ed66ac, #f51689);
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+}
+
+footer {
+    display: flex;
+    color: #2e244fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    width: 100%;
+    font-size: 26px;
+    background-color: white;
+    height: 100px;
+}
+
+.copyright {
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.copyright span {
+    color: #f51488;
+}
+
+.Redes_sociales {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 2px;
+    margin-right: 50px;
+}
+
+.Redes {
+    display: flex;
+    border-radius: 150%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:352px) {
+
+    .seccion1 aside {
+        background-image: none;
+    }
+
+    header img {
+        height: 40px;
+        margin-left: 5px;
+        clip-path: inset(10% 60% 10% 0%);
+    }
+
+    nav ul {
+        gap: 6px;
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+    ul {
+        font-size: 12px;
+    }
+
+    .primer {
+        font-size: 12px;
+        padding: 9px 4px;
+        margin-right: 8px;
+    }
+
+    .bg-transparent {
+        display: none;
+    }
+
+    h1 {
+        margin-left: 7%;
+        font-size: 70px;
+    }
+
+    h4 {
+        font-size: 15px;
+        margin-left: 5%;
+        width: 50%;
+    }
+
+    .botones {
+        margin-left: 1.5%;
+        margin-right: 5%;
+        width: 50%;
+    }
+
+    .grad {
+        font-size: 15px;
+    }
+
+    .transparente {
+        font-size: 15px;
+    }
+
+    .titulo2 {
+        font-size: 38px;
+        margin-left: 20%;
+        margin-top: 30px;
+    }
+
+    .division2 {
+        display: contents;
+    }
+
+    h2 {
+        width: 100%;
+        font-size: 38px;
+    }
+
+    .parrafo1 {
+        font-size: 16px;
+    }
+
+    .page {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .seccion2 {
+        width: 100%;
+        height: 120vh;
+    }
+
+    .alpha {
+        margin-top: 50px;
+        width: 90%;
+        margin-left: 20%;
+    }
+
+    .plans {
+        font-size: 40px;
+    }
+
+    .plan {
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .seccion3 {
+        gap: 30px;
+    }
+
+    .contenido {
+        display: contents;
+    }
+
+    .items {
+        width: 90%;
+    }
+
+    .rosa {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .gris {
+        font-size: 15px;
+    }
+
+    .copy {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .redes {
+        margin-right: 10px;
+    }
+} 
+
+@media screen and (max-width:481px) {
+
+    .sec1 {
+        width: 100%;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    header img {
+        margin-left: 15px;
+        height: 32px;
+        clip-path: inset(10% 60% 10% 0%);
+    }
+
+    nav ul {
+        margin-right: 10px;
+        gap: 15px;
+    }
+
+    ul {
+        font-size: 14px; 
+    }
+
+    .primer {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    h1 {
+        font-size: 70px;
+        margin-left: 20%; 
+    }
+
+    h4 {
+        font-size: 15px;
+        margin-left: 20%;
+        width: 50%; 
+    }
+
+    .botones {
+        margin-left: 20%;
+    }
+
+    .grad {
+        font-size: 15px;
+    }
+
+    .transparente {
+        font-size: 15px;
+        padding: 0.4rem 1.rem;
+    }
+
+    .celular {
+        display: none;
+    }
+
+    .bg-transparent {
+        display: none;
+    }
+
+    .seccion2 {
+        height: 130vh;
+    } 
+
+    .parrafo1 {
+        width: 120%;
+        margin-left: 25%;
+    }
+
+    .text {
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .page {
+        margin-left: 25%;
+    }
+
+    .titulo2 {
+        font-size: 45px;
+    } 
+
+    .division2 {
+        display: block;
+    }
+
+    .computador {
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    h2 {
+        margin-left: 40%;
+        text-align: center;
+    }
+
+    .plans {
+        margin-left: 1%;
+    }
+
+    .plan {
+        width: 80%;
+        margin-left: 1%;
+    }
+
+    .contenido {
+        display: contents;
+    }
+
+    .items {
+        width: 80%;
+        text-align: center;
+    }
+
+    .rosa {
+        font-size: 15px;
+    }
+
+    .gris {
+        font-size: 15px;
+    }
+
+    .copy {
+        font-size: 15px;
+        margin-left: 5px;
+        width: 50%;
+    }
+
+    .redes {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:769px) {}
