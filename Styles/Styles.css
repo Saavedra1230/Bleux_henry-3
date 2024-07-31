@@ -322,6 +322,7 @@ footer {
         height: 140px;
         width: 84%;
         padding-right: 16%;
+        padding-top: 0px;
     }
 
     header img {
@@ -394,13 +395,15 @@ footer {
     h2 {
         display: flex;
         justify-content: center;
-        font-size: 38px;
+        font-size: 30px;
         width: 100%;
+       
+
     }
 
     .Parrafo_1 {
         margin: 0 10%;
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .Marketing {
@@ -411,20 +414,24 @@ footer {
 
     .Foncti {
         width: 100%;
-        padding-right: 16%;
+        padding-right: 4%;
     }
 
     .Titulo_1 {
         font-size: 35px;
+
     }
 
     .Alpha {
         width: 50%;
         height: 20%;
+        margin-right: 30px;
+
     }
 
     .Plans_1 {
         gap: 30px;
+        padding-left: 4%;
 
     }
 
@@ -438,6 +445,7 @@ footer {
 
     .Items {
         width: 90%;
+        margin-right: 30%;
 
     }
 
@@ -461,14 +469,14 @@ footer {
     .copyright {
         margin-left: 10px;
         font-size: 12px;
-    }
+/*         padding-left: 4%;
+ */    }
 
     .Redes_sociales {
         margin-right: 10px;
     }
+}
 
-
-
-
-
+@media screen and (min-width:481px) and (max-width:768px){
+    
 }
