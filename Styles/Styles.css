@@ -397,7 +397,7 @@ footer {
         justify-content: center;
         font-size: 30px;
         width: 100%;
-       
+
 
     }
 
@@ -420,6 +420,10 @@ footer {
     .Titulo_1 {
         font-size: 35px;
 
+    }
+
+    .Chulo {
+        width: 13px;
     }
 
     .Alpha {
@@ -469,14 +473,268 @@ footer {
     .copyright {
         margin-left: 10px;
         font-size: 12px;
-/*         padding-left: 4%;
- */    }
+        /*         padding-left: 4%;
+ */
+    }
 
     .Redes_sociales {
         margin-right: 10px;
     }
 }
 
-@media screen and (min-width:481px) and (max-width:768px){
-    
+@media screen and (min-width:481px) and (max-width:768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        height: 160px;
+        width: 84%;
+        padding-right: 19%;
+        padding-top: 0px;
+    }
+
+    header img {
+        width: 35%;
+        clip-path: inset(5% 5% 10% 0%);
+    }
+
+    .Product {
+        background-image: none;
+        padding-right: 4%;
+        width: 100%;
+    }
+
+    .Product_1 {
+        padding-right: 100px;
+        width: 100%;
+    }
+
+    h1 {
+        display: flex;
+        font-size: 70px;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin: 0 40px;
+    }
+
+    .Botones {
+        margin: 15px 40px;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .span {
+        font-size: 15px;
+    }
+
+    .Boton_2 {
+        display: contents;
+    }
+
+
+
+    nav {
+        padding: 0px;
+    }
+
+    ul {
+        font-size: 25px;
+    }
+
+    nav ul {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .Download {
+        padding: 9px 4px;
+        font-size: 15px;
+        margin-right: 9px;
+        margin-left: 3px;
+
+    }
+
+    .Fondo_transparente {
+        display: none;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        width: 100%;
+
+    }
+
+    .Parrafo_1 {
+        margin: 0 10%;
+        font-size: 25px;
+    }
+
+    .Marketing {
+        margin: 0 10%;
+        font-size: 26px;
+
+    }
+
+    .Chulo {
+        width: 20px;
+    }
+
+    .Foncti {
+        width: 100%;
+        padding-right: 4%;
+    }
+
+    .Titulo_1 {
+        font-size: 50px;
+
+    }
+
+    .Alpha {
+        width: 100%;
+        height: 100%;
+        margin-right: 30px;
+    }
+
+    .Plans_1 {
+        gap: 30px;
+        padding-left: 4%;
+
+    }
+
+    .Titulo_2 {
+        font-size: 50px;
+    }
+
+    .Containers {
+        display: contents;
+    }
+
+    .Items {
+        width: 90%;
+        margin-right: 20%;
+
+    }
+
+    h5 {
+        font-size: 45px;
+    }
+
+    .Plans_2 {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .Letra_Rosa {
+        font-size: 20px;
+    }
+
+    .Letra {
+        font-size: 20px;
+    }
+
+    .Subscribe {
+        width: 200px;
+        height: 60px
+    }
+
+    .Letra_Gris {
+        font-size: 20px;
+    }
+
+    .copyright {
+        margin-left: 10px;
+        font-size: 20px;
+        /*         padding-left: 4%;
+ */
+    }
+
+    .Redes_sociales {
+        margin-right: 10px;
+    }
+
+    .Boton_2 {
+        width: 30px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:920px) {
+    .Product_1 {
+        width: 30%;
+    }
+
+    .telefono {
+        width: 400px;
+
+    }
+
+    ul {
+        font-size: 30px;
+    }
+
+    .Download {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .Botones {
+        width: 300px;
+        font-size: 100%;
+    }
+
+    .Titulo_1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .Parrafo_1 {
+        font-size: 30px;
+    }
+
+    .Marketing {
+        font-size: 30px;
+    }
+
+    .Chulo {
+        width: 30px;
+    }
+
+    .Plans_2 {
+        font-size: 25px;
+    }
+
+    .Items{
+        width: 100%;
+        height: 880px;
+        margin-left: 5px;
+        margin-right: 1%;
+
+    }
+
+    .Letra{
+        font-size: 25px;
+    }
+
+    .Subscribe{
+        font-size: 24px;
+        width: 180px;
+    }
+
+    .copyright{
+        font-size: 27px;
+    }
+
+
 }
