@@ -340,7 +340,7 @@ footer {
     }
 
     h1 {
-        display:flex;
+        display: flex;
         font-size: 50px;
         justify-content: center;
         margin-left: 0px;
@@ -364,7 +364,7 @@ footer {
         font-size: 13px;
     }
 
-    .Boton_1{
+    .Boton_1 {
         width: 50%;
     }
 
@@ -445,7 +445,7 @@ footer {
 
     }
 
-    .Particion{
+    .Particion {
         display: contents;
     }
 
@@ -469,7 +469,7 @@ footer {
 
     }
 
-    .Laptop{
+    .Laptop {
         margin-top: 0px;
     }
 
@@ -531,8 +531,8 @@ footer {
 
     /* .Product_1 {
         /* padding-right: 100px; */
-        /* width: 100%; */
-    
+    /* width: 100%; */
+
 
     h1 {
         display: flex;
@@ -613,7 +613,7 @@ footer {
 
     /* .Foncti {
         /* width: 100%; */
-        /* padding-right: 4%; */
+    /* padding-right: 4%; */
 
     .Titulo_1 {
         font-size: 40px;
@@ -678,7 +678,8 @@ footer {
         margin-left: 10px;
         font-size: 20px;
         /*         padding-left: 4%;
- */}
+ */
+    }
 
     .Redes_sociales {
         margin-right: 10px;
@@ -688,11 +689,12 @@ footer {
         width: 30px;
     }
 
-    footer{
+    footer {
         /* width: 100%; */
         padding: 0px 0px 0px;
     }
 }
+
 @media screen and (min-width:769px) and (max-width:920px) {
     header {
         width: 100%;
@@ -717,7 +719,7 @@ footer {
         font-size: 25px;
     }
 
-    h1{
+    h1 {
         font-size: 60px;
     }
 
@@ -725,7 +727,7 @@ footer {
         font-size: 25px;
     }
 
-    .Containers{
+    .Containers {
         width: 86%;
     }
 
@@ -748,19 +750,19 @@ footer {
         font-size: 26px;
     }
 
-    .Containers{
+    .Containers {
         margin-right: 0px;
     }
 
-    .Letra_Gris{
+    .Letra_Gris {
         font-size: 22px;
     }
 
-    .Letra_Rosa{
+    .Letra_Rosa {
         font-size: 22px;
     }
 
-    .Letra{
+    .Letra {
         font-size: 25px;
     }
 
@@ -769,7 +771,7 @@ footer {
         font-size: 30px;
     }
 
-    .Alpha{
+    .Alpha {
         margin-top: 30px;
     }
 
@@ -789,7 +791,7 @@ footer {
 
     }
 
-    
+
     .Subscribe {
         font-size: 20px;
         width: 140px;
@@ -800,11 +802,11 @@ footer {
         font-size: 23px;
     }
 
-    footer{
+    footer {
         width: 74%;
     }
 
-    .Redes_sociales{
+    .Redes_sociales {
         width: 100%;
     }
 
