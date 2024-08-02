@@ -18,7 +18,6 @@ nav {
     display: flex;
     gap: 30px;
     align-items: center;
-    /* padding: 15px; */
     height: 4px;
 }
 
@@ -318,7 +317,6 @@ footer {
     header {
         display: flex;
         flex-direction: column;
-        /* padding: 12px; */
         height: 140px;
         width: 100%;
     }
@@ -355,7 +353,6 @@ footer {
 
     .Botones {
         margin: 20px 35px;
-        /* padding-right: 10px; */
         height: 10%;
 
     }
@@ -369,16 +366,9 @@ footer {
     }
 
     .Boton_2 {
-        /* display: contents; */
         font-size: 13px;
 
     }
-
-
-
-    /* nav {
-         padding-right: 15%; 
-    } */
 
     ul {
         font-size: 12px;
@@ -423,8 +413,6 @@ footer {
 
     .Foncti {
         width: 100%;
-        /* padding-right: 4%;
-        padding-left: 12%; */
     }
 
     .Titulo_1 {
@@ -440,7 +428,6 @@ footer {
     .Alpha {
         width: 90%;
         height: 20%;
-        /* margin-right: 30px; */
         margin-top: 0px;
 
     }
@@ -451,8 +438,6 @@ footer {
 
     .Plans_1 {
         gap: 30px;
-        /* padding-left: 16%; */
-
     }
 
     .Titulo_2 {
@@ -493,8 +478,6 @@ footer {
     .copyright {
         margin-left: 10px;
         font-size: 14px;
-        /*         padding-left: 4%;
- */
     }
 
     .Redes_sociales {
@@ -511,10 +494,7 @@ footer {
     header {
         display: flex;
         flex-direction: column;
-        /* padding: 12px; */
         height: 160px;
-        /* width: 84%;
-        padding-right: 19%; */
         padding-top: 0px;
     }
 
@@ -525,14 +505,7 @@ footer {
 
     .Product {
         background-image: none;
-        /* padding-right: 4%; */
-        /* width: 100%; */
     }
-
-    /* .Product_1 {
-        /* padding-right: 100px; */
-    /* width: 100%; */
-
 
     h1 {
         display: flex;
@@ -611,10 +584,6 @@ footer {
         width: 20px;
     }
 
-    /* .Foncti {
-        /* width: 100%; */
-    /* padding-right: 4%; */
-
     .Titulo_1 {
         font-size: 40px;
         margin-top: 6px;
@@ -644,8 +613,6 @@ footer {
     .Items {
         width: 70%;
         margin-right: 19%;
-        /* margin-right: 20%; */
-
     }
 
     h5 {
@@ -677,8 +644,6 @@ footer {
     .copyright {
         margin-left: 10px;
         font-size: 20px;
-        /*         padding-left: 4%;
- */
     }
 
     .Redes_sociales {
@@ -690,7 +655,6 @@ footer {
     }
 
     footer {
-        /* width: 100%; */
         padding: 0px 0px 0px;
     }
 }
