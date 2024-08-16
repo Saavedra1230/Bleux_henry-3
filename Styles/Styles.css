@@ -10,6 +10,10 @@ header {
     align-items: center;
     background: #1e162eff;
     justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 nav {
@@ -298,17 +302,16 @@ footer {
     display: flex;
     justify-content: right;
     align-items: center;
-    gap: 2px;
+    gap: 0px;
     margin-right: 50px;
 }
 
 .Redes {
     display: flex;
-    border-radius: 150%;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 30%;
+    max-width: 52px;
+    width: 50%;
 }
 
 
@@ -319,6 +322,7 @@ footer {
         flex-direction: column;
         height: 140px;
         width: 100%;
+        padding-bottom: 2%;
     }
 
     header img {
@@ -413,6 +417,9 @@ footer {
 
     .Foncti {
         width: 100%;
+        height: 54%;
+        padding-bottom: 10px;
+        padding-top: 5%;
     }
 
     .Titulo_1 {
@@ -450,7 +457,7 @@ footer {
 
     .Items {
         width: 80%;
-        margin-right: 28%;
+        margin-right: 20%;
 
     }
 
@@ -496,6 +503,7 @@ footer {
         flex-direction: column;
         height: 160px;
         padding-top: 0px;
+        padding-bottom: 2%;
     }
 
     header img {
@@ -594,7 +602,12 @@ footer {
         width: 100%;
         height: 100%;
         margin-right: 30px;
-        margin-top: 35px;
+        margin-top: 1px;
+    }
+
+    .Foncti{
+        height: 100%;
+        padding-bottom: 10px;
     }
 
     .Plans_1 {
@@ -711,7 +724,7 @@ footer {
     }
 
     .Parrafo_1 {
-        font-size: 26px;
+        font-size: 120%;
     }
 
     .Containers {
@@ -736,7 +749,7 @@ footer {
     }
 
     .Alpha {
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     .Chulo {
@@ -758,16 +771,17 @@ footer {
 
     .Subscribe {
         font-size: 20px;
-        width: 140px;
-        height: 100%;
+        width: 70%;
+        height: 7%;
+        margin-top: 20px;
     }
 
     .copyright {
         font-size: 23px;
     }
 
-    footer {
-        width: 74%;
+    footer{
+        padding: 0px;
     }
 
     .Redes_sociales {
