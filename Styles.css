@@ -273,7 +273,7 @@ ul {
 }
 
 footer {
-    width: 100%;
+    /* width: 100%; */
     font-size: 26px;
     background-color: white;
     height: 100px;
