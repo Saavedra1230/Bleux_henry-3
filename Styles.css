@@ -10,6 +10,9 @@ header {
     align-items: center;
     background: #1e162eff;
     justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 nav {
@@ -280,7 +283,7 @@ footer {
     color: #2e244fff;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0;
 
 }
 
